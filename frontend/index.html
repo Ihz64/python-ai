@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodeMind AI - Modern AI Platform & Coding Workspace</title>
+  <link rel="stylesheet" href="/static/css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Left Sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <div class="brand">
+          <div class="brand-icon">CM</div>
+          <span>CodeMind AI</span>
+        </div>
+      </div>
+
+      <button class="new-chat-btn" id="newChatBtn">
+        <i class="fa-solid fa-plus"></i> New Conversation
+      </button>
+
+      <div class="sidebar-nav">
+        <div class="nav-section-title">Conversations</div>
+        <div id="conversationsList">
+          <!-- Populated dynamically -->
+        </div>
+
+        <div class="nav-section-title">Projects</div>
+        <div id="projectsList">
+          <!-- Populated dynamically -->
+        </div>
+      </div>
+
+      <div class="sidebar-footer">
+        <button class="tool-btn" style="width: 100%; justify-content: flex-start;" id="settingsBtn">
+          <i class="fa-solid fa-gear"></i> Settings (Offline Local Mode)
+        </button>
+      </div>
+    </aside>
+
+    <!-- Main Chat Workspace -->
+    <main class="chat-area">
+      <header class="chat-header">
+        <div class="chat-title-group">
+          <button class="toggle-sidebar-btn" id="toggleSidebarBtn"><i class="fa-solid fa-bars"></i></button>
+          <span style="font-weight: 600;" id="chatTitle">New Chat Workspace</span>
+          <span class="mode-badge coding" id="modeBadge">CODING MODE</span>
+        </div>
+
+        <div style="display: flex; gap: 10px; align-items: center;">
+          <select class="select-control" id="modelSelect">
+            <option value="local-llama3" selected>Local Llama 3 (Offline / No Key Required)</option>
+            <option value="gpt-4o">GPT-4o (Omni Cloud)</option>
+            <option value="claude-3-5-sonnet">Claude 3.5 Sonnet</option>
+            <option value="gemini-1.5-pro">Gemini 1.5 Pro</option>
+          </select>
+          <button class="toggle-editor-btn" id="toggleEditorBtn" title="Toggle Code Editor"><i class="fa-solid fa-code"></i></button>
+        </div>
+      </header>
+
+      <!-- Message History -->
+      <div class="chat-messages" id="chatMessages">
+        <div class="message-card">
+          <div class="message-avatar ai-avatar">CM</div>
+          <div class="message-body">
+            <strong>Welcome to CodeMind AI Platform (Local Mode)</strong><br>
+            Operating 100% offline without requiring external API keys. Choose between <strong>Chat Mode</strong> and <strong>Coding Mode</strong> to start writing code, analyzing projects, and debugging software locally.
+          </div>
+        </div>
+      </div>
+
+      <!-- Prompt Input Box -->
+      <div class="prompt-container">
+        <div class="prompt-box">
+          <textarea class="prompt-textarea" id="promptInput" placeholder="Ask anything, request code, or debug a snippet... (Enter to send, Shift+Enter for newline)"></textarea>
+
+          <div class="prompt-actions">
+            <div class="prompt-left-tools">
+              <button class="tool-btn" id="uploadFileBtn"><i class="fa-solid fa-paperclip"></i> Attach</button>
+              <button class="tool-btn" id="modeToggleBtn"><i class="fa-solid fa-code"></i> Coding Mode: ON</button>
+            </div>
+
+            <button class="send-btn" id="sendBtn">
+              <span>Send</span> <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Right Code Editor & Diff Pane -->
+    <aside class="editor-pane" id="editorPane">
+      <div class="editor-header">
+        <div style="font-weight: 600; font-size: 0.9rem;" id="editorFileTitle">Code Sandbox / Editor</div>
+        <button class="toggle-sidebar-btn" id="closeEditorBtn"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+
+      <div class="editor-body">
+        <textarea class="editor-textarea" id="editorCode" placeholder="// Write or paste code here..."></textarea>
+      </div>
+
+      <div class="editor-controls">
+        <button class="editor-action-btn" id="runCodeBtn"><i class="fa-solid fa-play"></i> Run Code</button>
+        <button class="editor-action-btn" id="analyzeCodeBtn"><i class="fa-solid fa-magnifying-glass"></i> Analyze</button>
+      </div>
+    </aside>
+  </div>
+
+  <script src="/static/js/app.js"></script>
+</body>
+</html>
