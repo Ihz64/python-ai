@@ -1,0 +1,38 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hallo Ultra",
+        "Hi Ultra KI",
+        "Guten Tag Mini AI Ultra",
+        "Start Ultra AI"
+      ],
+      "responses": [
+        "Willkommen bei Python Mini AI Ultra! Deep Intelligence Suite ist aktiv."
+      ]
+    },
+    {
+      "tag": "ultra_info",
+      "patterns": [
+        "Was ist Ultra AI",
+        "Features von Python Mini AI Ultra",
+        "Welche Modelle besitzt Ultra"
+      ],
+      "responses": [
+        "Python Mini AI Ultra vereint Multi-Architecture Neural Ensembles, RAG Vektorspeicher, Code Sandbox und lokales Training!"
+      ]
+    },
+    {
+      "tag": "training_info",
+      "patterns": [
+        "Wie starte ich lokales Training",
+        "Kann Ultra lokal lernen",
+        "Neural Network Training"
+      ],
+      "responses": [
+        "Du kannst lokales Training direkt über den Befehl 'train' oder den Button 'KI Trainieren' starten."
+      ]
+    }
+  ]
+}

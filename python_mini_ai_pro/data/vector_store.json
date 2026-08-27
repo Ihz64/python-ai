@@ -1,0 +1,29 @@
+[
+  {
+    "id": "doc1",
+    "title": "Python Details",
+    "content": "Python ist eine dynamische Sprache für Web und KI.",
+    "chunks": [
+      "Python ist eine dynamische Sprache für Web und KI."
+    ],
+    "tags": []
+  },
+  {
+    "id": "doc_phys",
+    "title": "Physik & Quanten",
+    "content": "Die Quantenphysik beschreibt das Verhalten von Subatomaren Teilchen.",
+    "chunks": [
+      "Die Quantenphysik beschreibt das Verhalten von Subatomaren Teilchen."
+    ],
+    "tags": []
+  },
+  {
+    "id": "doc_py",
+    "title": "Python Pro Guide",
+    "content": "Python Pro unterstützt RAG Vektorspeicher, Code Ausführung und neuronale Netze.",
+    "chunks": [
+      "Python Pro unterstützt RAG Vektorspeicher, Code Ausführung und neuronale Netze."
+    ],
+    "tags": []
+  }
+]

@@ -2,63 +2,121 @@
   {
     "topic": "Python",
     "question": "Was ist Python?",
-    "answer": "Python ist eine vielseitige, übersichtliche und weit verbreitete High-Level-Programmiersprache.",
-    "tags": [
-      "python",
-      "programmierung",
-      "sprache"
-    ]
+    "answer": "Python ist eine vielseitige, übersichtliche und weit verbreitete High-Level-Programmiersprache für Web, Data Science & KI.",
+    "tags": ["python", "programmierung", "sprache", "software"]
   },
   {
     "topic": "Neuronale Netze",
     "question": "Was ist ein neuronales Netzwerk?",
-    "answer": "Ein neuronales Netzwerk ist ein mathematisches Modell der KI, das vom menschlichen Gehirn inspiriert ist und aus verknüpften Neuronen besteht.",
-    "tags": [
-      "ki",
-      "neural",
-      "netzwerk",
-      "deep learning"
-    ]
+    "answer": "Ein neuronales Netzwerk ist ein mathematisches KI-Modell, das aus verknüpften Neuronen (Layer) besteht und per Forward- & Backpropagation lernt.",
+    "tags": ["ki", "neural", "netzwerk", "deep learning", "ki-modell"]
   },
   {
     "topic": "Machine Learning",
     "question": "Was ist Machine Learning?",
-    "answer": "Machine Learning (Maschinelles Lernen) bezeichnet Verfahren, bei denen Computer aus Daten Muster lernen, ohne explizit dafür programmiert zu werden.",
-    "tags": [
-      "ml",
-      "ki",
-      "daten",
-      "lernen"
-    ]
+    "answer": "Machine Learning (Maschinelles Lernen) bezeichnet Verfahren, bei denen Computer selbstständig aus Daten Muster lernen, ohne explizit programmiert zu werden.",
+    "tags": ["ml", "ki", "daten", "lernen", "algorithmus"]
   },
   {
     "topic": "Backpropagation",
     "question": "Wie funktioniert Backpropagation?",
-    "answer": "Backpropagation berechnet die Fehler-Gradienten von der Ausgabeschicht zurück zu den Eingabeschichten, um die Modellgewichte per Gradientenabstieg anzupassen.",
-    "tags": [
-      "backpropagation",
-      "gradient",
-      "training",
-      "weights"
-    ]
+    "answer": "Backpropagation berechnet die Gradienten der Loss-Funktion bezüglich aller Gewichte von der Ausgabeschicht zurück zu den Eingabeschichten per Kettenregel.",
+    "tags": ["backpropagation", "gradient", "training", "weights", "optimizer"]
   },
   {
     "topic": "Python Mini AI",
     "question": "Was ist Python Mini AI?",
-    "answer": "Python Mini AI ist eine modulare, lokale KI-Anwendung mit eigenem neuronalen Netz, NLP-Verarbeitung, Gedächtnis und Lernsystem.",
-    "tags": [
-      "python mini ai",
-      "projekt",
-      "lokal",
-      "chatbot"
-    ]
+    "answer": "Python Mini AI ist eine modulare, lokale KI-Anwendung mit eigenem NumPy-basierten neuronalen Netz, NLP, Math-Engine, Gedächtnis & Lernsystem.",
+    "tags": ["python mini ai", "projekt", "lokal", "chatbot", "architektur"]
   },
   {
-    "topic": "Gelernte Fragen",
-    "question": "Was ist Pytest?",
-    "answer": "Pytest ist ein Test-Framework in Python.",
-    "tags": [
-      "custom_learning"
-    ]
+    "topic": "Erde",
+    "question": "Wie groß ist die Erde?",
+    "answer": "Die Erde hat einen äquatorialen Durchmesser von ca. 12.756 km, eine Masse von 5,97 * 10^24 kg und einen Umfang von etwa 40.075 km.",
+    "tags": ["erde", "geografie", "planet", "durchmesser", "masse"]
+  },
+  {
+    "topic": "Erde",
+    "question": "Wie alt ist die Erde?",
+    "answer": "Die Erde ist schätzungsweise etwa 4,54 Milliarden Jahre alt.",
+    "tags": ["erde", "alter", "geologie", "geschichte"]
+  },
+  {
+    "topic": "Universum",
+    "question": "Wie groß ist das Universum?",
+    "answer": "Das beobachtbare Universum hat einen Durchmesser von schätzungsweise 93 Milliarden Lichtjahren und enthält über 2 Billionen Galaxien.",
+    "tags": ["universum", "weltall", "kosmos", "lichtjahre", "galaxien"]
+  },
+  {
+    "topic": "Universum",
+    "question": "Was ist eine Galaxie?",
+    "answer": "Eine Galaxie ist eine durch Gravitation gebundene Ansammlung von Milliarden Sternen, Gasen und dunkler Materie. Unsere Heimat ist die Milchstraße.",
+    "tags": ["galaxie", "sterne", "milchstraße", "weltall"]
+  },
+  {
+    "topic": "Physik",
+    "question": "Was ist die Lichtgeschwindigkeit?",
+    "answer": "Die Lichtgeschwindigkeit im Vakuum beträgt exakt 299.792.458 m/s (ca. 300.000 km/s).",
+    "tags": ["lichtgeschwindigkeit", "physik", "einstein", "tempo", "vakuum"]
+  },
+  {
+    "topic": "Physik",
+    "question": "Was besagt die Relativitätstheorie?",
+    "answer": "Einsteins Spezielle und Allgemeine Relativitätstheorie besagen, dass Raum und Zeit miteinander verwoben sind und durch Masse gekrümmt werden (E=mc²).",
+    "tags": ["relativitätstheorie", "einstein", "physik", "emc2", "gravitation"]
+  },
+  {
+    "topic": "Physik",
+    "question": "Was ist Quantenmechanik?",
+    "answer": "Die Quantenphysik beschreibt das Verhalten von Materie und Licht auf atomarer und subatomarer Ebene (z. B. Welle-Teilchen-Dualismus).",
+    "tags": ["quantenphysik", "quantenmechanik", "physik", "atome"]
+  },
+  {
+    "topic": "Geschichte",
+    "question": "Wann begann der Zweite Weltkrieg?",
+    "answer": "Der Zweite Weltkrieg begann in Europa am 1. September 1939 und endete im Mai 1945.",
+    "tags": ["geschichte", "weltkrieg", "historie", "1939", "1945"]
+  },
+  {
+    "topic": "Geschichte",
+    "question": "Wann fiel die Berliner Mauer?",
+    "answer": "Die Berliner Mauer fiel am 9. November 1989, was 1990 zur Wiedervereinigung Deutschlands führte.",
+    "tags": ["mauer", "berlin", "geschichte", "1989", "deutschland"]
+  },
+  {
+    "topic": "Geografie",
+    "question": "Was ist die Hauptstadt von Deutschland?",
+    "answer": "Die Hauptstadt der Bundesrepublik Deutschland ist Berlin.",
+    "tags": ["hauptstadt", "deutschland", "berlin", "geografie"]
+  },
+  {
+    "topic": "Geografie",
+    "question": "Was ist der höchste Berg der Erde?",
+    "answer": "Der Mount Everest im Himalaya ist mit 8.848 Metern über dem Meeresspiegel der höchste Berg der Erde.",
+    "tags": ["mount everest", "berg", "geografie", "himalaya"]
+  },
+  {
+    "topic": "Politik",
+    "question": "Was ist eine Demokratie?",
+    "answer": "Eine Demokratie ist eine Staatsform, in der die Staatsgewalt vom Volk ausgeht (z. B. durch freie und geheime Wahlen sowie Gewaltenteilung).",
+    "tags": ["demokratie", "politik", "staat", "wahlen", "verfassung"]
+  },
+  {
+    "topic": "Politik",
+    "question": "Was sind die Vereinten Nationen (UN)?",
+    "answer": "Die Vereinten Nationen (UN/UNO) sind ein Zusammenschluss von 193 Staaten zur Sicherung des Weltfriedens und Einhaltung der Menschenrechte.",
+    "tags": ["un", "politik", "vereinte nationen", "frieden", "menschenrechte"]
+  },
+  {
+    "topic": "Biologie",
+    "question": "Was ist Fotosynthese?",
+    "answer": "Fotosynthese ist der Prozess, bei dem Pflanzen mit Hilfe von Sonnenlicht, Wasser und CO₂ Sauerstoff und Glukose erzeugen.",
+    "tags": ["fotosynthese", "biologie", "pflanzen", "sauerstoff", "sonne"]
+  },
+  {
+    "topic": "Chemie",
+    "question": "Was ist das Periodensystem?",
+    "answer": "Das Periodensystem der Elemente ordnet alle chemischen Elemente nach ihrer Ordnungszahl und ihren chemischen Eigenschaften an.",
+    "tags": ["periodensystem", "chemie", "elemente", "ordnungszahl"]
   }
 ]

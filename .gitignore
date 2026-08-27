@@ -1,9 +1,8 @@
-*.pyc
-__pycache__/
+# Ignore generated large datasets, databases and binary weight files
+*.npz
 *.db
-*.sqlite3
-.venv/
-uploads/
-projects/*
-!projects/.gitkeep
-.env
+*.log
+__pycache__/
+.pytest_cache/
+venv/
+python_mini_ai_ultra/knowledge/ultra_knowledge.json

@@ -1,0 +1,34 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hallo", "Hi", "Guten Tag", "Moin", "Hey", "Servus", "Hello", "Good morning"],
+      "responses": ["Hallo! Willkommen bei Python Mini AI Pro.", "Guten Tag! Wie kann ich dich unterstützen?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Tschüss", "Auf Wiedersehen", "Bis später", "Ciao", "Bye"],
+      "responses": ["Auf Wiedersehen!", "Bis bald!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Danke", "Vielen Dank", "Dankeschön", "Thanks"],
+      "responses": ["Sehr gerne!", "Immer wieder gerne."]
+    },
+    {
+      "tag": "python_pro",
+      "patterns": ["Was ist Python", "Python Programmierung", "Code in Python"],
+      "responses": ["Python ist eine führende Programmiersprache für KI, RAG, Web & Wissenschaft."]
+    },
+    {
+      "tag": "ai_pro_info",
+      "patterns": ["Was ist Pro", "Features von Python Mini AI Pro", "Was kannst du pro"],
+      "responses": ["Python Mini AI Pro bietet Deep Neural Nets, RAG Vector Store, Code Execution Sandbox, und SQLite Gedächtnis!"]
+    },
+    {
+      "tag": "unknown",
+      "patterns": ["xyz123", "quwertz"],
+      "responses": ["Das habe ich leider nicht verstanden."]
+    }
+  ]
+}

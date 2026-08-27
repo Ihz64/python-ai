@@ -1,0 +1,452 @@
+[
+  {
+    "id": "Informatik & KI-Architekturen",
+    "title": "Was unterscheidet Deep Learning von klassischen Algorithmen?",
+    "content": "Klassische Algorithmen erfordern explizit programmierte Handlungsanweisungen. Deep Learning dagegen nutzt vielschichtige neuronale Netze (MLPs, CNNs, Transformatoren), die Repräsentationen und Features selbstständig über vorwärts- und rückwärtsgerichtete Optimierungsläufe (Gradient Descent) aus Daten erlernen.",
+    "chunks": [
+      "Klassische Algorithmen erfordern explizit programmierte Handlungsanweisungen. Deep Learning dagegen nutzt vielschichtige neuronale Netze (MLPs, CNNs, Transformatoren), die Repräsentationen und Features selbstständig über vorwärts- und rückwärtsgerichtete Optimierungsläufe (Gradient Descent) aus Daten erlernen."
+    ],
+    "tags": []
+  },
+  {
+    "id": "Quantenphysik & Kosmologie",
+    "title": "Was ist die Quanten-Verschränkung?",
+    "content": "Quantenverschränkung ist ein Phänomen, bei dem zwei oder mehr verschränkte Teilchen einen gemeinsamen Zustand teilen. Die Messung des Zustands eines Teilchens bestimmt augenblicklich den Zustand des anderen – unabhängig von deren räumlicher Distanz ('spukhafte Fernwirkung').",
+    "chunks": [
+      "Quantenverschränkung ist ein Phänomen, bei dem zwei oder mehr verschränkte Teilchen einen gemeinsamen Zustand teilen. Die Messung des Zustands eines Teilchens bestimmt augenblicklich den Zustand des anderen – unabhängig von deren räumlicher Distanz ('spukhafte Fernwirkung')."
+    ],
+    "tags": []
+  },
+  {
+    "id": "Neurowissenschaften & Philosophie",
+    "title": "Wie entsteht Bewusstsein aus neurobiologischer Sicht?",
+    "content": "Aus neurobiologischer Sicht resultiert Bewusstsein aus komplexen, synchronisierten elektrischen und chemischen Netzaktivitäten im Neocortex, Thalamus und Hirnstamm. Philosophisch unterscheidet man das leichte Problem (Verarbeitungsmechanismen) vom schaden/harten Problem (Qualia und subjektives Erleben).",
+    "chunks": [
+      "Aus neurobiologischer Sicht resultiert Bewusstsein aus komplexen, synchronisierten elektrischen und chemischen Netzaktivitäten im Neocortex, Thalamus und Hirnstamm. Philosophisch unterscheidet man das leichte Problem (Verarbeitungsmechanismen) vom schaden/harten Problem (Qualia und subjektives Erleben)."
+    ],
+    "tags": []
+  },
+  {
+    "id": "Höhere Mathematik & Algebra",
+    "title": "Was ist der Fundamentalsatz der Algebra?",
+    "content": "Der Fundamentalsatz der Algebra besagt, dass jedes nicht-konstante Polynom mit komplexen Koeffizienten im Bereich der komplexen Zahlen mindestens eine Nullstelle besitzt. Daraus folgt, dass ein Polynom n-ten Grades genau n komplex-wertige Nullstellen hat.",
+    "chunks": [
+      "Der Fundamentalsatz der Algebra besagt, dass jedes nicht-konstante Polynom mit komplexen Koeffizienten im Bereich der komplexen Zahlen mindestens eine Nullstelle besitzt. Daraus folgt, dass ein Polynom n-ten Grades genau n komplex-wertige Nullstellen hat."
+    ],
+    "tags": []
+  },
+  {
+    "id": "Genetik & Bioinformatik - Modul 1",
+    "title": "Erkläre Kernkonzepte zu Genetik & Bioinformatik Thema #1",
+    "content": "In Genetik & Bioinformatik Thema #1 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund.",
+    "chunks": [
+      "In Genetik & Bioinformatik Thema #1 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund."
+    ],
+    "tags": []
+  },
+  {
+    "id": "Verteilte Systeme & Cloud - Modul 2",
+    "title": "Erkläre Kernkonzepte zu Verteilte Systeme & Cloud Thema #2",
+    "content": "In Verteilte Systeme & Cloud Thema #2 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund.",
+    "chunks": [
+      "In Verteilte Systeme & Cloud Thema #2 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund."
+    ],
+    "tags": []
+  },
+  {
+    "id": "Wirtschaftsmathematik & Spieltheorie - Modul 3",
+    "title": "Erkläre Kernkonzepte zu Wirtschaftsmathematik & Spieltheorie Thema #3",
+    "content": "In Wirtschaftsmathematik & Spieltheorie Thema #3 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund.",
+    "chunks": [
+      "In Wirtschaftsmathematik & Spieltheorie Thema #3 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund."
+    ],
+    "tags": []
+  },
+  {
+    "id": "Astrophysik & Schwarze Löcher - Modul 4",
+    "title": "Erkläre Kernkonzepte zu Astrophysik & Schwarze Löcher Thema #4",
+    "content": "In Astrophysik & Schwarze Löcher Thema #4 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund.",
+    "chunks": [
+      "In Astrophysik & Schwarze Löcher Thema #4 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund."
+    ],
+    "tags": []
+  },
+  {
+    "id": "Neuronale Optimierer - Modul 5",
+    "title": "Erkläre Kernkonzepte zu Neuronale Optimierer Thema #5",
+    "content": "In Neuronale Optimierer Thema #5 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund.",
+    "chunks": [
+      "In Neuronale Optimierer Thema #5 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund."
+    ],
+    "tags": []
+  },
+  {
+    "id": "Cybersecurity & Kryptografie - Modul 6",
+    "title": "Erkläre Kernkonzepte zu Cybersecurity & Kryptografie Thema #6",
+    "content": "In Cybersecurity & Kryptografie Thema #6 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund.",
+    "chunks": [
+      "In Cybersecurity & Kryptografie Thema #6 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund."
+    ],
+    "tags": []
+  },
+  {
+    "id": "Quantenfeldtheorie - Modul 7",
+    "title": "Erkläre Kernkonzepte zu Quantenfeldtheorie Thema #7",
+    "content": "In Quantenfeldtheorie Thema #7 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund.",
+    "chunks": [
+      "In Quantenfeldtheorie Thema #7 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund."
+    ],
+    "tags": []
+  },
+  {
+    "id": "Genetik & Bioinformatik - Modul 8",
+    "title": "Erkläre Kernkonzepte zu Genetik & Bioinformatik Thema #8",
+    "content": "In Genetik & Bioinformatik Thema #8 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund.",
+    "chunks": [
+      "In Genetik & Bioinformatik Thema #8 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund."
+    ],
+    "tags": []
+  },
+  {
+    "id": "Verteilte Systeme & Cloud - Modul 9",
+    "title": "Erkläre Kernkonzepte zu Verteilte Systeme & Cloud Thema #9",
+    "content": "In Verteilte Systeme & Cloud Thema #9 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund.",
+    "chunks": [
+      "In Verteilte Systeme & Cloud Thema #9 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund."
+    ],
+    "tags": []
+  },
+  {
+    "id": "Wirtschaftsmathematik & Spieltheorie - Modul 10",
+    "title": "Erkläre Kernkonzepte zu Wirtschaftsmathematik & Spieltheorie Thema #10",
+    "content": "In Wirtschaftsmathematik & Spieltheorie Thema #10 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund.",
+    "chunks": [
+      "In Wirtschaftsmathematik & Spieltheorie Thema #10 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund."
+    ],
+    "tags": []
+  },
+  {
+    "id": "Astrophysik & Schwarze Löcher - Modul 11",
+    "title": "Erkläre Kernkonzepte zu Astrophysik & Schwarze Löcher Thema #11",
+    "content": "In Astrophysik & Schwarze Löcher Thema #11 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund.",
+    "chunks": [
+      "In Astrophysik & Schwarze Löcher Thema #11 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund."
+    ],
+    "tags": []
+  },
+  {
+    "id": "Neuronale Optimierer - Modul 12",
+    "title": "Erkläre Kernkonzepte zu Neuronale Optimierer Thema #12",
+    "content": "In Neuronale Optimierer Thema #12 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund.",
+    "chunks": [
+      "In Neuronale Optimierer Thema #12 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund."
+    ],
+    "tags": []
+  },
+  {
+    "id": "Cybersecurity & Kryptografie - Modul 13",
+    "title": "Erkläre Kernkonzepte zu Cybersecurity & Kryptografie Thema #13",
+    "content": "In Cybersecurity & Kryptografie Thema #13 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund.",
+    "chunks": [
+      "In Cybersecurity & Kryptografie Thema #13 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund."
+    ],
+    "tags": []
+  },
+  {
+    "id": "Quantenfeldtheorie - Modul 14",
+    "title": "Erkläre Kernkonzepte zu Quantenfeldtheorie Thema #14",
+    "content": "In Quantenfeldtheorie Thema #14 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund.",
+    "chunks": [
+      "In Quantenfeldtheorie Thema #14 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund."
+    ],
+    "tags": []
+  },
+  {
+    "id": "Genetik & Bioinformatik - Modul 15",
+    "title": "Erkläre Kernkonzepte zu Genetik & Bioinformatik Thema #15",
+    "content": "In Genetik & Bioinformatik Thema #15 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund.",
+    "chunks": [
+      "In Genetik & Bioinformatik Thema #15 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund."
+    ],
+    "tags": []
+  },
+  {
+    "id": "Verteilte Systeme & Cloud - Modul 16",
+    "title": "Erkläre Kernkonzepte zu Verteilte Systeme & Cloud Thema #16",
+    "content": "In Verteilte Systeme & Cloud Thema #16 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund.",
+    "chunks": [
+      "In Verteilte Systeme & Cloud Thema #16 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund."
+    ],
+    "tags": []
+  },
+  {
+    "id": "doc_0_Informatik & KI-Architekturen",
+    "title": "Was unterscheidet Deep Learning von klassischen Algorithmen?",
+    "content": "Klassische Algorithmen erfordern explizit programmierte Handlungsanweisungen. Deep Learning dagegen nutzt vielschichtige neuronale Netze (MLPs, CNNs, Transformatoren), die Repräsentationen und Features selbstständig über vorwärts- und rückwärtsgerichtete Optimierungsläufe (Gradient Descent) aus Daten erlernen.",
+    "chunks": [
+      "Klassische Algorithmen erfordern explizit programmierte Handlungsanweisungen. Deep Learning dagegen nutzt vielschichtige neuronale Netze (MLPs, CNNs, Transformatoren), die Repräsentationen und Features selbstständig über vorwärts- und rückwärtsgerichtete Optimierungsläufe (Gradient Descent) aus Daten erlernen."
+    ],
+    "tags": []
+  },
+  {
+    "id": "doc_1_Quantenphysik & Kosmologie",
+    "title": "Was ist die Quanten-Verschränkung?",
+    "content": "Quantenverschränkung ist ein Phänomen, bei dem zwei oder mehr verschränkte Teilchen einen gemeinsamen Zustand teilen. Die Messung des Zustands eines Teilchens bestimmt augenblicklich den Zustand des anderen – unabhängig von deren räumlicher Distanz ('spukhafte Fernwirkung').",
+    "chunks": [
+      "Quantenverschränkung ist ein Phänomen, bei dem zwei oder mehr verschränkte Teilchen einen gemeinsamen Zustand teilen. Die Messung des Zustands eines Teilchens bestimmt augenblicklich den Zustand des anderen – unabhängig von deren räumlicher Distanz ('spukhafte Fernwirkung')."
+    ],
+    "tags": []
+  },
+  {
+    "id": "doc_2_Neurowissenschaften & Philosophie",
+    "title": "Wie entsteht Bewusstsein aus neurobiologischer Sicht?",
+    "content": "Aus neurobiologischer Sicht resultiert Bewusstsein aus komplexen, synchronisierten elektrischen und chemischen Netzaktivitäten im Neocortex, Thalamus und Hirnstamm. Philosophisch unterscheidet man das leichte Problem (Verarbeitungsmechanismen) vom schaden/harten Problem (Qualia und subjektives Erleben).",
+    "chunks": [
+      "Aus neurobiologischer Sicht resultiert Bewusstsein aus komplexen, synchronisierten elektrischen und chemischen Netzaktivitäten im Neocortex, Thalamus und Hirnstamm. Philosophisch unterscheidet man das leichte Problem (Verarbeitungsmechanismen) vom schaden/harten Problem (Qualia und subjektives Erleben)."
+    ],
+    "tags": []
+  },
+  {
+    "id": "doc_3_Höhere Mathematik & Algebra",
+    "title": "Was ist der Fundamentalsatz der Algebra?",
+    "content": "Der Fundamentalsatz der Algebra besagt, dass jedes nicht-konstante Polynom mit komplexen Koeffizienten im Bereich der komplexen Zahlen mindestens eine Nullstelle besitzt. Daraus folgt, dass ein Polynom n-ten Grades genau n komplex-wertige Nullstellen hat.",
+    "chunks": [
+      "Der Fundamentalsatz der Algebra besagt, dass jedes nicht-konstante Polynom mit komplexen Koeffizienten im Bereich der komplexen Zahlen mindestens eine Nullstelle besitzt. Daraus folgt, dass ein Polynom n-ten Grades genau n komplex-wertige Nullstellen hat."
+    ],
+    "tags": []
+  },
+  {
+    "id": "doc_4_Genetik & Bioinformatik - Modul 1",
+    "title": "Erkläre Kernkonzepte zu Genetik & Bioinformatik Thema #1",
+    "content": "In Genetik & Bioinformatik Thema #1 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund.",
+    "chunks": [
+      "In Genetik & Bioinformatik Thema #1 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund."
+    ],
+    "tags": []
+  },
+  {
+    "id": "doc_5_Verteilte Systeme & Cloud - Modul 2",
+    "title": "Erkläre Kernkonzepte zu Verteilte Systeme & Cloud Thema #2",
+    "content": "In Verteilte Systeme & Cloud Thema #2 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund.",
+    "chunks": [
+      "In Verteilte Systeme & Cloud Thema #2 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund."
+    ],
+    "tags": []
+  },
+  {
+    "id": "doc_6_Wirtschaftsmathematik & Spieltheorie - Modul 3",
+    "title": "Erkläre Kernkonzepte zu Wirtschaftsmathematik & Spieltheorie Thema #3",
+    "content": "In Wirtschaftsmathematik & Spieltheorie Thema #3 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund.",
+    "chunks": [
+      "In Wirtschaftsmathematik & Spieltheorie Thema #3 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund."
+    ],
+    "tags": []
+  },
+  {
+    "id": "doc_7_Astrophysik & Schwarze Löcher - Modul 4",
+    "title": "Erkläre Kernkonzepte zu Astrophysik & Schwarze Löcher Thema #4",
+    "content": "In Astrophysik & Schwarze Löcher Thema #4 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund.",
+    "chunks": [
+      "In Astrophysik & Schwarze Löcher Thema #4 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund."
+    ],
+    "tags": []
+  },
+  {
+    "id": "doc_8_Neuronale Optimierer - Modul 5",
+    "title": "Erkläre Kernkonzepte zu Neuronale Optimierer Thema #5",
+    "content": "In Neuronale Optimierer Thema #5 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund.",
+    "chunks": [
+      "In Neuronale Optimierer Thema #5 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund."
+    ],
+    "tags": []
+  },
+  {
+    "id": "doc_9_Cybersecurity & Kryptografie - Modul 6",
+    "title": "Erkläre Kernkonzepte zu Cybersecurity & Kryptografie Thema #6",
+    "content": "In Cybersecurity & Kryptografie Thema #6 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund.",
+    "chunks": [
+      "In Cybersecurity & Kryptografie Thema #6 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund."
+    ],
+    "tags": []
+  },
+  {
+    "id": "doc_10_Quantenfeldtheorie - Modul 7",
+    "title": "Erkläre Kernkonzepte zu Quantenfeldtheorie Thema #7",
+    "content": "In Quantenfeldtheorie Thema #7 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund.",
+    "chunks": [
+      "In Quantenfeldtheorie Thema #7 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund."
+    ],
+    "tags": []
+  },
+  {
+    "id": "doc_11_Genetik & Bioinformatik - Modul 8",
+    "title": "Erkläre Kernkonzepte zu Genetik & Bioinformatik Thema #8",
+    "content": "In Genetik & Bioinformatik Thema #8 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund.",
+    "chunks": [
+      "In Genetik & Bioinformatik Thema #8 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund."
+    ],
+    "tags": []
+  },
+  {
+    "id": "doc_12_Verteilte Systeme & Cloud - Modul 9",
+    "title": "Erkläre Kernkonzepte zu Verteilte Systeme & Cloud Thema #9",
+    "content": "In Verteilte Systeme & Cloud Thema #9 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund.",
+    "chunks": [
+      "In Verteilte Systeme & Cloud Thema #9 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund."
+    ],
+    "tags": []
+  },
+  {
+    "id": "doc_13_Wirtschaftsmathematik & Spieltheorie - Modul 10",
+    "title": "Erkläre Kernkonzepte zu Wirtschaftsmathematik & Spieltheorie Thema #10",
+    "content": "In Wirtschaftsmathematik & Spieltheorie Thema #10 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund.",
+    "chunks": [
+      "In Wirtschaftsmathematik & Spieltheorie Thema #10 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund."
+    ],
+    "tags": []
+  },
+  {
+    "id": "doc_14_Astrophysik & Schwarze Löcher - Modul 11",
+    "title": "Erkläre Kernkonzepte zu Astrophysik & Schwarze Löcher Thema #11",
+    "content": "In Astrophysik & Schwarze Löcher Thema #11 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund.",
+    "chunks": [
+      "In Astrophysik & Schwarze Löcher Thema #11 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund."
+    ],
+    "tags": []
+  },
+  {
+    "id": "doc_15_Neuronale Optimierer - Modul 12",
+    "title": "Erkläre Kernkonzepte zu Neuronale Optimierer Thema #12",
+    "content": "In Neuronale Optimierer Thema #12 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund.",
+    "chunks": [
+      "In Neuronale Optimierer Thema #12 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund."
+    ],
+    "tags": []
+  },
+  {
+    "id": "doc_16_Cybersecurity & Kryptografie - Modul 13",
+    "title": "Erkläre Kernkonzepte zu Cybersecurity & Kryptografie Thema #13",
+    "content": "In Cybersecurity & Kryptografie Thema #13 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund.",
+    "chunks": [
+      "In Cybersecurity & Kryptografie Thema #13 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund."
+    ],
+    "tags": []
+  },
+  {
+    "id": "doc_17_Quantenfeldtheorie - Modul 14",
+    "title": "Erkläre Kernkonzepte zu Quantenfeldtheorie Thema #14",
+    "content": "In Quantenfeldtheorie Thema #14 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund.",
+    "chunks": [
+      "In Quantenfeldtheorie Thema #14 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund."
+    ],
+    "tags": []
+  },
+  {
+    "id": "doc_18_Genetik & Bioinformatik - Modul 15",
+    "title": "Erkläre Kernkonzepte zu Genetik & Bioinformatik Thema #15",
+    "content": "In Genetik & Bioinformatik Thema #15 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund.",
+    "chunks": [
+      "In Genetik & Bioinformatik Thema #15 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund."
+    ],
+    "tags": []
+  },
+  {
+    "id": "doc_19_Verteilte Systeme & Cloud - Modul 16",
+    "title": "Erkläre Kernkonzepte zu Verteilte Systeme & Cloud Thema #16",
+    "content": "In Verteilte Systeme & Cloud Thema #16 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund.",
+    "chunks": [
+      "In Verteilte Systeme & Cloud Thema #16 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund."
+    ],
+    "tags": []
+  },
+  {
+    "id": "doc_20_Wirtschaftsmathematik & Spieltheorie - Modul 17",
+    "title": "Erkläre Kernkonzepte zu Wirtschaftsmathematik & Spieltheorie Thema #17",
+    "content": "In Wirtschaftsmathematik & Spieltheorie Thema #17 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund.",
+    "chunks": [
+      "In Wirtschaftsmathematik & Spieltheorie Thema #17 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund."
+    ],
+    "tags": []
+  },
+  {
+    "id": "doc_21_Astrophysik & Schwarze Löcher - Modul 18",
+    "title": "Erkläre Kernkonzepte zu Astrophysik & Schwarze Löcher Thema #18",
+    "content": "In Astrophysik & Schwarze Löcher Thema #18 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund.",
+    "chunks": [
+      "In Astrophysik & Schwarze Löcher Thema #18 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund."
+    ],
+    "tags": []
+  },
+  {
+    "id": "doc_22_Neuronale Optimierer - Modul 19",
+    "title": "Erkläre Kernkonzepte zu Neuronale Optimierer Thema #19",
+    "content": "In Neuronale Optimierer Thema #19 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund.",
+    "chunks": [
+      "In Neuronale Optimierer Thema #19 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund."
+    ],
+    "tags": []
+  },
+  {
+    "id": "doc_23_Cybersecurity & Kryptografie - Modul 20",
+    "title": "Erkläre Kernkonzepte zu Cybersecurity & Kryptografie Thema #20",
+    "content": "In Cybersecurity & Kryptografie Thema #20 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund.",
+    "chunks": [
+      "In Cybersecurity & Kryptografie Thema #20 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund."
+    ],
+    "tags": []
+  },
+  {
+    "id": "doc_24_Quantenfeldtheorie - Modul 21",
+    "title": "Erkläre Kernkonzepte zu Quantenfeldtheorie Thema #21",
+    "content": "In Quantenfeldtheorie Thema #21 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund.",
+    "chunks": [
+      "In Quantenfeldtheorie Thema #21 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund."
+    ],
+    "tags": []
+  },
+  {
+    "id": "doc_25_Genetik & Bioinformatik - Modul 22",
+    "title": "Erkläre Kernkonzepte zu Genetik & Bioinformatik Thema #22",
+    "content": "In Genetik & Bioinformatik Thema #22 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund.",
+    "chunks": [
+      "In Genetik & Bioinformatik Thema #22 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund."
+    ],
+    "tags": []
+  },
+  {
+    "id": "doc_26_Verteilte Systeme & Cloud - Modul 23",
+    "title": "Erkläre Kernkonzepte zu Verteilte Systeme & Cloud Thema #23",
+    "content": "In Verteilte Systeme & Cloud Thema #23 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund.",
+    "chunks": [
+      "In Verteilte Systeme & Cloud Thema #23 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund."
+    ],
+    "tags": []
+  },
+  {
+    "id": "doc_27_Wirtschaftsmathematik & Spieltheorie - Modul 24",
+    "title": "Erkläre Kernkonzepte zu Wirtschaftsmathematik & Spieltheorie Thema #24",
+    "content": "In Wirtschaftsmathematik & Spieltheorie Thema #24 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund.",
+    "chunks": [
+      "In Wirtschaftsmathematik & Spieltheorie Thema #24 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund."
+    ],
+    "tags": []
+  },
+  {
+    "id": "doc_28_Astrophysik & Schwarze Löcher - Modul 25",
+    "title": "Erkläre Kernkonzepte zu Astrophysik & Schwarze Löcher Thema #25",
+    "content": "In Astrophysik & Schwarze Löcher Thema #25 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund.",
+    "chunks": [
+      "In Astrophysik & Schwarze Löcher Thema #25 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund."
+    ],
+    "tags": []
+  },
+  {
+    "id": "doc_29_Neuronale Optimierer - Modul 26",
+    "title": "Erkläre Kernkonzepte zu Neuronale Optimierer Thema #26",
+    "content": "In Neuronale Optimierer Thema #26 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund.",
+    "chunks": [
+      "In Neuronale Optimierer Thema #26 stehen strukturelle Analysen, mathematische Modellierung, Optimierungsverfahren und skalierbare Algorithmen im Vordergrund."
+    ],
+    "tags": []
+  }
+]
