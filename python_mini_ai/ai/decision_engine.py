@@ -2,6 +2,7 @@ import logging
 from typing import Dict, Any, Optional
 from python_mini_ai.ai.intent_classifier import IntentClassifier
 from python_mini_ai.ai.response_generator import ResponseGenerator
+from python_mini_ai.ai.math_engine import MathEngine
 from python_mini_ai.nlp.similarity import SimilarityCalculator
 from python_mini_ai.config import (
     CONFIDENCE_THRESHOLD_HIGH,
@@ -13,8 +14,8 @@ logger = logging.getLogger(__name__)
 
 class DecisionEngine:
     """
-    Combines Knowledge Base, Intent Classification (Neural Network), Rule-based matching,
-    and Chat Memory into a prioritized final answer with transparency scores.
+    Combines Math Engine, Knowledge Base, Intent Classification (Neural Network),
+    Rule-based matching, and Chat Memory into a prioritized final answer with transparency scores.
     """
 
     def __init__(
@@ -22,23 +23,44 @@ class DecisionEngine:
         intent_classifier: IntentClassifier,
         response_generator: ResponseGenerator,
         knowledge_base: Any = None,
-        memory_manager: Any = None
+        memory_manager: Any = None,
+        math_engine: Optional[MathEngine] = None
     ):
         self.intent_classifier = intent_classifier
         self.response_generator = response_generator
         self.knowledge_base = knowledge_base
         self.memory_manager = memory_manager
+        self.math_engine = math_engine or MathEngine()
         self.similarity_calculator = SimilarityCalculator()
 
     def process_query(self, user_text: str) -> Dict[str, Any]:
         """
         Evaluates input text through:
+        0. High-Speed Math Engine ("Rechenprofi")
         1. Exact/High Knowledge Base Match
         2. Neural Network Intent Match
         3. Rule / Pattern Matching
         4. Memory context analysis
         5. Fallback response
         """
+        # Step 0: Fast Math Engine Check
+        math_res = self.math_engine.extract_and_evaluate(user_text)
+        if math_res:
+            debug_info = {
+                "input": user_text,
+                "response_source": "math_engine",
+                "confidence": 1.0,
+                "kb_score": 0.0,
+                "detected_intent": "math_calculation",
+                "nn_confidence": 0.0
+            }
+            return {
+                "response": math_res["response"],
+                "confidence": 1.0,
+                "source": "math_engine",
+                "debug": debug_info
+            }
+
         # Step 1: Check Knowledge Base
         kb_match = None
         kb_score = 0.0

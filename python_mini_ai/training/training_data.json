@@ -10,12 +10,15 @@
         "Hey",
         "Servus",
         "Hello",
-        "Good morning"
+        "Good morning",
+        "Grüß Gott",
+        "Guten Abend"
       ],
       "responses": [
         "Hallo! Wie kann ich dir heute helfen?",
         "Guten Tag! Was kann ich für dich tun?",
-        "Hey! Schon von dir zu hören."
+        "Hey! Schön von dir zu hören.",
+        "Moin! Wie geht es dir?"
       ]
     },
     {
@@ -26,12 +29,15 @@
         "Bis später",
         "Ciao",
         "Bye",
-        "Bis bald"
+        "Bis bald",
+        "Auf Wiederhören",
+        "Schönen Tag noch"
       ],
       "responses": [
         "Auf Wiedersehen! Einen schönen Tag noch.",
         "Tschüss! Melde dich gerne jederzeit wieder.",
-        "Bis bald!"
+        "Bis bald!",
+        "Ciao! War mir ein Vergnügen."
       ]
     },
     {
@@ -41,12 +47,15 @@
         "Vielen Dank",
         "Dankeschön",
         "Thanks",
-        "Super danke"
+        "Super danke",
+        "Besten Dank",
+        "Ich danke dir"
       ],
       "responses": [
         "Sehr gerne!",
         "Nichts zu danken! Immer wieder gerne.",
-        "Freut mich, dass ich helfen konnte!"
+        "Freut mich, dass ich helfen konnte!",
+        "Jederzeit wieder!"
       ]
     },
     {
@@ -55,10 +64,12 @@
         "Was ist Python",
         "Erkläre Python",
         "Python Programmierung",
-        "Wie funktioniert Python"
+        "Wie funktioniert Python",
+        "Wofür braucht man Python",
+        "Vorteile von Python"
       ],
       "responses": [
-        "Python ist eine vielseitige, leicht zu erlernende Programmiersprache, die in Webentwicklung, Data Science und KI verwendet wird."
+        "Python ist eine vielseitige, leicht zu erlernende Programmiersprache, die in Webentwicklung, Data Science, Automatisierung und KI verwendet wird."
       ]
     },
     {
@@ -67,10 +78,52 @@
         "Hilfe",
         "Was kannst du tun",
         "Was sind deine Funktionen",
-        "Wie hilfst du mir"
+        "Wie hilfst du mir",
+        "Welche Fähigkeiten hast du",
+        "Was kannst du"
       ],
       "responses": [
-        "Ich bin die Python Mini AI. Ich kann dir Fragen beantworten, über Python sprechen und aus deinen Eingaben lernen."
+        "Ich bin Python Mini AI. Ich besitze ein neuronales Netz, einen Rechenprofi für Mathe, Allgemeinwissen zu Physik, Erde & Geschichte und ein Gedächtnis!"
+      ]
+    },
+    {
+      "tag": "earth_geo",
+      "patterns": [
+        "Erde Geografie",
+        "Wissen über die Erde",
+        "Wie ist die Erde",
+        "Fakten zur Erde",
+        "Der Planet Erde",
+        "Kontinente und Ozeane"
+      ],
+      "responses": [
+        "Die Erde ist der dritte Planet unseres Sonnensystems, zu 71% von Wasser bedeckt und die Heimat von Milliarden Lebewesen."
+      ]
+    },
+    {
+      "tag": "universe_physics",
+      "patterns": [
+        "Universum Physik",
+        "Was ist das Weltall",
+        "Fakten zum Universum",
+        "Quantenphysik und Relativität",
+        "Sonnensystem Sterne"
+      ],
+      "responses": [
+        "Das Universum entstand vor ca. 13,8 Milliarden Jahren durch den Urknall und dehnt sich seitdem kontinuierlich aus."
+      ]
+    },
+    {
+      "tag": "history_politics",
+      "patterns": [
+        "Geschichte und Politik",
+        "Historische Ereignisse",
+        "Was ist Geschichte",
+        "Politische Systeme",
+        "Weltgeschichte Fakten"
+      ],
+      "responses": [
+        "Geschichte prägt die Gegenwart: Von den alten Hochkulturen über die Industrialisierung bis zur modernen Weltpolitik."
       ]
     },
     {
@@ -79,21 +132,24 @@
         "Wie ist das Wetter",
         "Regnet es heute",
         "Wetterbericht",
-        "Wetter heute"
+        "Wetter heute",
+        "Wie wird das Wetter"
       ],
       "responses": [
-        "Als lokale KI habe ich keinen direkten Wetterdienst, aber ich hoffe, bei dir scheint die Sonne!"
+        "Als lokale KI habe ich keinen direkten Echtzeit-Wetterdienst, aber ich hoffe, bei dir scheint die Sonne!"
       ]
     },
     {
-      "tag": "math",
+      "tag": "math_general",
       "patterns": [
         "Kannst du rechnen",
         "Mathematik",
-        "Mathe Hilfe"
+        "Mathe Hilfe",
+        "Rechenprofi",
+        "Matheaufgaben lösen"
       ],
       "responses": [
-        "Ja, einfache mathematische Logik und Fragen kann ich mit dir durchgehen!"
+        "Ja! Mein integrierter Rechenprofi löst Rechnungen wie 125 * 8, Wurzeln, Prozent oder Potenzen im Bruchteil einer Millisekunde."
       ]
     },
     {
@@ -105,15 +161,6 @@
       ],
       "responses": [
         "Das habe ich leider nicht ganz verstanden. Kannst du es genauer erklären?"
-      ]
-    },
-    {
-      "tag": "custom_learning",
-      "patterns": [
-        "Was ist Pytest?"
-      ],
-      "responses": [
-        "Pytest ist ein Test-Framework in Python."
       ]
     }
   ]
