@@ -1,123 +1,125 @@
-# Python Mini AI 🤖🧠
+# Python Mini AI & Python Mini AI Pro 🤖🧠
 
-**Python Mini AI** ist eine vollständig lokale, autonome Python-KI-Anwendung mit einem **eigenen in NumPy implementierten neuronalen Netzwerk**, NLP-Textverarbeitung, regelbasiertem Entscheidungs-Engine, Chat-Gedächtnis (Kurzzeit & SQLite Langzeit) sowie einem aktiven Lern- und Feedbacksystem.
-
----
-
-## 🌟 Hauptmerkmale
-
-* **Eigenes Neuronales Netz (NumPy MLP):** Eigenständiges Multi-Layer Perceptron mit Forward Propagation, Softmax Output, Cross-Entropy Loss, Backpropagation, Adam-Optimizer und Gewicht-Persistenz (.npz).
-* **NLP-Pipeline:** Eigener Tokenizer, Stopwort-Filterung, Bag-of-Words-Vektorisierung sowie Jaccard- & Cosine-Ähnlichkeitsberechnung.
-* **Hybrid Decision Engine:** Priorisierte Antwortgenerierung mit transparente Confidence Scores (Knowledge Base → Neural Network → Short/Long-Term Memory → Fallback).
-* **Lernfähigkeit & Feedback:** Speichert positives Feedback, erweitert Trainingsmuster und erlaubt direkte Interaktion zur Re-Trainierung des neuronalen Netzes.
-* **Modernes GUI & CLI-Fallback:** Tkinter Dark Mode Desktop Interface mit Echtzeit-Confidence Gauge & Debug-Panel sowie einem automatischen Fallback für Terminal/Headless-Umgebungen.
+**Python Mini AI** ist ein hochperformantes, vollständig lokales KI-System mit eigenem **NumPy Deep Neural Network**, NLP-Textverarbeitung, RAG VectorStore, Code Sandbox, schnelle Mathe-Engine („Rechenprofi“) sowie Kurz- und Langzeitgedächtnis (SQLite & JSON).
 
 ---
 
-## 📁 Projektstruktur
+## 🚀 Key Features
 
-```text
-python_mini_ai/
-│
-├── main.py                         # Anwendungseinstiegspunkt
-├── config.py                       # Einstellungen, Pfade & Hyperparameter
-│
-├── ai/                             # Neuronales Netz & Entscheidungslogik
-│   ├── __init__.py
-│   ├── neural_network.py           # NumPy MLP (Forward, Backprop, Loss, Adam)
-│   ├── trainer.py                  # Vektorisierung & Training Loop
-│   ├── inference.py                # Vorhersage-Engine
-│   ├── intent_classifier.py        # Intent Klassifikator
-│   ├── response_generator.py       # Antwortgenerator
-│   └── decision_engine.py          # Prioritäten- & Scoring-Engine
-│
-├── nlp/                            # Textverarbeitung & Similarity
-│   ├── __init__.py
-│   ├── tokenizer.py                # Regex Tokenizer (DE / EN)
-│   ├── text_processor.py           # Normalisierung & Bag-of-Words
-│   └── similarity.py               # Cosine & Jaccard Ähnlichkeiten
-│
-├── memory/                         # Chat-Gedächtnis
-│   ├── __init__.py
-│   ├── short_term.py               # Sliding Window Kontext-Puffer
-│   ├── long_term.py                # SQLite Datenbank (Verlauf & Fakten)
-│   └── memory_manager.py           # Memory Facade
-│
-├── knowledge/                      # Lokale Wissensdatenbank
-│   ├── __init__.py
-│   ├── knowledge_base.py           # Suche in lokaler JSON
-│   └── knowledge.json              # Wissenseinträge
-│
-├── training/                       # Datasets & Lernsystem
-│   ├── __init__.py
-│   ├── dataset.py                  # Dataset Manager
-│   ├── learning_system.py          # Feedback & Re-Training System
-│   └── training_data.json          # Intent Training Patterns
-│
-├── ui/                             # Desktop Benutzeroberfläche
-│   ├── __init__.py
-│   └── chat_window.py              # Tkinter Dark Mode GUI
-│
-├── models/                         # Gespeicherte Gewichte
-│   └── model_weights.npz
-│
-├── data/                           # Datenbanken
-│   └── memory.db
-│
-└── tests/                          # Automated Pytest Suite
-    ├── test_ai.py
-    ├── test_nlp.py
-    └── test_memory.py
+* ⚡ **Ultra-Schnelle Inference & Sub-Millisekunden Mathe-Engine ("Rechenprofi"):** Löst mathematische Aufgaben (`125 * 8`, `sqrt(144)`, `2^10`) sofort mit 100% Confidence.
+* 🧠 **Eigenes Deep Neural Network (NumPy MLP):** Multi-Layer Perceptron mit Forward/Backpropagation, LeakyReLU, Softmax, Cross-Entropy Loss, Adam-Optimizer und Gewicht-Persistenz (`.npz`).
+* 🔍 **RAG Vector Store & Context Engine:** Lokaler Vektorspeicher mit TF-IDF & Document Chunking für Dokumentensuche.
+* 💻 **Code Execution Sandbox:** Sichere Ausführung von Python-Code-Snippets in isolierter Umgebung.
+* 💾 **Dual-Memory System:** Short-Term Sliding-Window Gedächtnis + Long-Term SQLite Datenbank.
+* 🖥️ **Dark Mode Desktop GUI & Instant CLI Fallback:** Tkinter Dark Mode Chat-Interface mit Confidence-Anzeige und automatischem Terminal-Modus für Headless-Systeme.
+
+---
+
+## 📥 Detaillierte Installationsanleitung
+
+### 1. Systemvoraussetzungen
+* **Python:** Version 3.10, 3.11 oder 3.12+
+* **Betriebssysteme:** Linux (Ubuntu/Debian/Fedora/Arch), macOS, Windows 10/11
+* **Grafische Benutzeroberfläche (Optional):** Tkinter (auf Linux: `sudo apt install python3-tk`)
+
+---
+
+### 2. Repository Klonen / Navigieren
+
+```bash
+cd /pfad/zu/deinem/projekt
 ```
 
 ---
 
-## 🚀 Installation & Start
+### 3. Virtuelle Umgebung Erstellen & Aktivieren
 
-### 1. Abhängigkeiten installieren
+#### Linux / macOS:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+#### Windows (PowerShell / CMD):
+```powershell
+python -m venv venv
+.\venv\Scripts\activate
+```
+
+---
+
+### 4. Abhängigkeiten Installieren
 
 ```bash
+pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-### 2. Anwendung starten
+---
+
+## 🎮 Startanleitungen
+
+### 🔵 Python Mini AI (Standard Edition)
 
 ```bash
 python main.py
 ```
-
-* **GUI-Modus:** Öffnet das moderne Desktop-Fenster, sofern ein Display verfügbar ist.
-* **CLI-Modus:** Startet automatisch im Terminal, falls kein Display vorhanden ist.
+* Startet das **Tkinter Dark Mode Interface** (sofern ein Display vorhanden ist) oder wechselt nahtlos in den **CLI Terminal Chat**.
 
 ---
 
-## 🧠 Neural Network Architektur
-
-1. **Input Layer:** Bag-of-Words Vektor der Eingabe basierend auf dem aktuellen Vokabular.
-2. **Hidden Layers:**
-   * Hidden Layer 1 (64 Neuronen, ReLU Aktivierung)
-   * Hidden Layer 2 (32 Neuronen, ReLU Aktivierung)
-3. **Output Layer:** Softmax Aktivierung mit Ausgabe von Wahrscheinlichkeiten für jede Intent-Klasse.
-4. **Optimization:** Adam Optimizer mit Backpropagation und Cross-Entropy Loss.
-
----
-
-## 🧪 Tests ausführen
+### 🟣 Python Mini AI Pro (Professional Edition)
 
 ```bash
-PYTHONPATH=. pytest python_mini_ai/tests
+PYTHONPATH=. python3 python_mini_ai_pro/main.py
+```
+* Bietet erweiterte Befehle im Chat:
+  * `run <code>` – Führt Code in der Sandbox aus.
+  * `search <query>` – Durchsucht den RAG Vector Store.
+
+---
+
+## 🧪 Tests Ausführen
+
+Um die gesamte Testsuite (15 Tests) für alle KI-Komponenten auszuführen:
+
+```bash
+PYTHONPATH=. pytest python_mini_ai/tests python_mini_ai_pro/tests
 ```
 
 ---
 
-## 💬 Beispiel-Interaktion (CLI)
+## 🎥 Demos & Interaktive Beispiele im Chat
 
+Hier siehst du typische Interaktionen der lokalen KI:
+
+### 1. Mathe-Engine ("Rechenprofi")
 ```text
-User > Was ist Python?
-AI   > Python ist eine vielseitige, übersichtliche und weit verbreitete High-Level-Programmiersprache.
-       [Confidence: 100.0% | Source: knowledge_base]
+User > Was ist 125 * 8?
+AI   > Das Ergebnis der Rechnung '125 * 8' ist: 1000
+       [Confidence: 100.0% | Source: math_engine]
+```
 
-User > Hallo!
-AI   > Hallo! Wie kann ich dir heute helfen?
-       [Confidence: 98.7% | Source: neural_network]
+### 2. Wissen zur Erde & Universum
+```text
+User > Wie groß ist das Universum?
+AI   > Das beobachtbare Universum hat einen Durchmesser von schätzungsweise 93 Milliarden Lichtjahren und enthält über 2 Billionen Galaxien.
+       [Confidence: 100.0% | Source: knowledge_base]
+```
+
+### 3. RAG VectorStore Suche (Pro Edition)
+```text
+PRO-AI User > search Python Pro
+[RAG VECTOR RETRIEVAL]
+1. [Python Pro Guide] Score: 0.447
+   Chunk: Python Pro unterstützt RAG Vektorspeicher, Code Ausführung und neuronale Netze.
+```
+
+### 4. Code Execution Sandbox (Pro Edition)
+```text
+PRO-AI User > run print("Hallo aus der Sandbox!")
+[SANDBOX EXECUTION]
+Status: SUCCESS
+Output:
+Hallo aus der Sandbox!
 ```
