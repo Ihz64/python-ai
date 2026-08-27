@@ -57,6 +57,35 @@ pip install -r requirements.txt
 
 ---
 
+## 🗑️ Deinstallationsanleitung (Uninstallation)
+
+Falls du das Projekt vollständig entfernen oder zurücksetzen möchtest, folge diesen Schritten:
+
+### 1. Virtuelle Umgebung Deaktivieren
+```bash
+# Linux / macOS / Windows PowerShell
+deactivate
+```
+
+### 2. Generierte Daten & Modell-Gewichte Löschen
+Lösche temporäre Daten, Modellgewichte und SQLite-Datenbanken:
+
+#### Linux / macOS:
+```bash
+rm -rf python_mini_ai/data/ python_mini_ai/models/
+rm -rf python_mini_ai_pro/data/ python_mini_ai_pro/models/
+rm -rf venv/ .pytest_cache/
+```
+
+#### Windows (PowerShell):
+```powershell
+Remove-Item -Recurse -Force python_mini_ai\data, python_mini_ai\models -ErrorAction SilentlyContinue
+Remove-Item -Recurse -Force python_mini_ai_pro\data, python_mini_ai_pro\models -ErrorAction SilentlyContinue
+Remove-Item -Recurse -Force venv, .pytest_cache -ErrorAction SilentlyContinue
+```
+
+---
+
 ## 🎮 Startanleitungen
 
 ### 🔵 Python Mini AI (Standard Edition)
