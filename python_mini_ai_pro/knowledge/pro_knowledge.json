@@ -1,0 +1,56 @@
+[
+  {
+    "topic": "Python",
+    "question": "Was ist Python?",
+    "answer": "Python ist eine vielseitige, übersichtliche und weit verbreitete High-Level-Programmiersprache.",
+    "tags": ["python", "programmierung", "sprache"]
+  },
+  {
+    "topic": "Erde",
+    "question": "Wie groß ist die Erde?",
+    "answer": "Die Erde hat einen äquatorialen Durchmesser von ca. 12.756 km und einen Umfang von etwa 40.075 km.",
+    "tags": ["erde", "geografie", "planet"]
+  },
+  {
+    "topic": "Universum",
+    "question": "Wie alt ist das Universum?",
+    "answer": "Das Universum ist schätzungsweise etwa 13,8 Milliarden Jahre alt (Urknall-Theorie).",
+    "tags": ["universum", "urknall", "weltall", "alter"]
+  },
+  {
+    "topic": "Physik",
+    "question": "Was ist E=mc²?",
+    "answer": "Einsteins Formel E=mc² beschreibt die Äquivalenz von Masse (m) und Energie (E), wobei c die Lichtgeschwindigkeit ist.",
+    "tags": ["physik", "einstein", "energie", "masse"]
+  },
+  {
+    "topic": "Geschichte",
+    "question": "Wann war die französische Revolution?",
+    "answer": "Die Französische Revolution begann 1789 und führte zum Ende der absoluten Monarchie in Frankreich.",
+    "tags": ["geschichte", "revolution", "1789", "frankreich"]
+  },
+  {
+    "topic": "Politik",
+    "question": "Was ist das Grundgesetz?",
+    "answer": "Das Grundgesetz ist die Verfassung der Bundesrepublik Deutschland, verkündet am 23. Mai 1949.",
+    "tags": ["grundgesetz", "politik", "deutschland", "verfassung"]
+  },
+  {
+    "topic": "Biologie",
+    "question": "Was ist die DNA?",
+    "answer": "Die DNA (Desoxyribonukleinsäure) ist das Makromolekül, das die Erbinformationen aller Lebewesen enthält.",
+    "tags": ["dna", "biologie", "genetik", "zelle"]
+  },
+  {
+    "topic": "Chemie",
+    "question": "Was ist die chemische Formel von Wasser?",
+    "answer": "Die chemische Formel von Wasser ist H₂O (zwei Wasserstoffatome und ein Sauerstoffatom).",
+    "tags": ["wasser", "h2o", "chemie", "molekül"]
+  },
+  {
+    "topic": "Informatik",
+    "question": "Was ist ein Algorithmus?",
+    "answer": "Ein Algorithmus ist eine eindeutige Handlungsvorschrift zur Lösung eines Problems in endlich vielen Schritten.",
+    "tags": ["algorithmus", "informatik", "logik", "code"]
+  }
+]
