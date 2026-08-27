@@ -1,0 +1,120 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hallo",
+        "Hi",
+        "Guten Tag",
+        "Moin",
+        "Hey",
+        "Servus",
+        "Hello",
+        "Good morning"
+      ],
+      "responses": [
+        "Hallo! Wie kann ich dir heute helfen?",
+        "Guten Tag! Was kann ich für dich tun?",
+        "Hey! Schon von dir zu hören."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Tschüss",
+        "Auf Wiedersehen",
+        "Bis später",
+        "Ciao",
+        "Bye",
+        "Bis bald"
+      ],
+      "responses": [
+        "Auf Wiedersehen! Einen schönen Tag noch.",
+        "Tschüss! Melde dich gerne jederzeit wieder.",
+        "Bis bald!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Danke",
+        "Vielen Dank",
+        "Dankeschön",
+        "Thanks",
+        "Super danke"
+      ],
+      "responses": [
+        "Sehr gerne!",
+        "Nichts zu danken! Immer wieder gerne.",
+        "Freut mich, dass ich helfen konnte!"
+      ]
+    },
+    {
+      "tag": "python_info",
+      "patterns": [
+        "Was ist Python",
+        "Erkläre Python",
+        "Python Programmierung",
+        "Wie funktioniert Python"
+      ],
+      "responses": [
+        "Python ist eine vielseitige, leicht zu erlernende Programmiersprache, die in Webentwicklung, Data Science und KI verwendet wird."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Hilfe",
+        "Was kannst du tun",
+        "Was sind deine Funktionen",
+        "Wie hilfst du mir"
+      ],
+      "responses": [
+        "Ich bin die Python Mini AI. Ich kann dir Fragen beantworten, über Python sprechen und aus deinen Eingaben lernen."
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "Wie ist das Wetter",
+        "Regnet es heute",
+        "Wetterbericht",
+        "Wetter heute"
+      ],
+      "responses": [
+        "Als lokale KI habe ich keinen direkten Wetterdienst, aber ich hoffe, bei dir scheint die Sonne!"
+      ]
+    },
+    {
+      "tag": "math",
+      "patterns": [
+        "Kannst du rechnen",
+        "Mathematik",
+        "Mathe Hilfe"
+      ],
+      "responses": [
+        "Ja, einfache mathematische Logik und Fragen kann ich mit dir durchgehen!"
+      ]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [
+        "xyz123",
+        "quwertz",
+        "unbekanntes muster"
+      ],
+      "responses": [
+        "Das habe ich leider nicht ganz verstanden. Kannst du es genauer erklären?"
+      ]
+    },
+    {
+      "tag": "custom_learning",
+      "patterns": [
+        "Was ist Pytest?"
+      ],
+      "responses": [
+        "Pytest ist ein Test-Framework in Python."
+      ]
+    }
+  ]
+}
