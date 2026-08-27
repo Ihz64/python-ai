@@ -1,0 +1,64 @@
+[
+  {
+    "topic": "Python",
+    "question": "Was ist Python?",
+    "answer": "Python ist eine vielseitige, übersichtliche und weit verbreitete High-Level-Programmiersprache.",
+    "tags": [
+      "python",
+      "programmierung",
+      "sprache"
+    ]
+  },
+  {
+    "topic": "Neuronale Netze",
+    "question": "Was ist ein neuronales Netzwerk?",
+    "answer": "Ein neuronales Netzwerk ist ein mathematisches Modell der KI, das vom menschlichen Gehirn inspiriert ist und aus verknüpften Neuronen besteht.",
+    "tags": [
+      "ki",
+      "neural",
+      "netzwerk",
+      "deep learning"
+    ]
+  },
+  {
+    "topic": "Machine Learning",
+    "question": "Was ist Machine Learning?",
+    "answer": "Machine Learning (Maschinelles Lernen) bezeichnet Verfahren, bei denen Computer aus Daten Muster lernen, ohne explizit dafür programmiert zu werden.",
+    "tags": [
+      "ml",
+      "ki",
+      "daten",
+      "lernen"
+    ]
+  },
+  {
+    "topic": "Backpropagation",
+    "question": "Wie funktioniert Backpropagation?",
+    "answer": "Backpropagation berechnet die Fehler-Gradienten von der Ausgabeschicht zurück zu den Eingabeschichten, um die Modellgewichte per Gradientenabstieg anzupassen.",
+    "tags": [
+      "backpropagation",
+      "gradient",
+      "training",
+      "weights"
+    ]
+  },
+  {
+    "topic": "Python Mini AI",
+    "question": "Was ist Python Mini AI?",
+    "answer": "Python Mini AI ist eine modulare, lokale KI-Anwendung mit eigenem neuronalen Netz, NLP-Verarbeitung, Gedächtnis und Lernsystem.",
+    "tags": [
+      "python mini ai",
+      "projekt",
+      "lokal",
+      "chatbot"
+    ]
+  },
+  {
+    "topic": "Gelernte Fragen",
+    "question": "Was ist Pytest?",
+    "answer": "Pytest ist ein Test-Framework in Python.",
+    "tags": [
+      "custom_learning"
+    ]
+  }
+]
