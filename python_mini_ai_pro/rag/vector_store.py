@@ -34,7 +34,6 @@ class VectorStoreRAG:
             "chunks": chunks,
             "tags": tags or []
         }
-        # Remove existing if ID exists
         self.documents = [d for d in self.documents if d["id"] != doc_id]
         self.documents.append(doc_entry)
         self._reindex()
@@ -53,7 +52,6 @@ class VectorStoreRAG:
         doc_freq: Dict[str, int] = {}
         vocab_set = set()
 
-        all_chunks = []
         for doc in self.documents:
             for chunk in doc["chunks"]:
                 doc_count += 1
@@ -86,26 +84,21 @@ class VectorStoreRAG:
         return vec
 
     def search(self, query: str, top_k: int = 3) -> List[Dict[str, Any]]:
-        """Performs RAG similarity retrieval over document chunks."""
+        """Performs TF-IDF dot-product similarity retrieval over document chunks."""
         if not self.documents or not query:
             return []
 
-        query_tokens = set(self._tokenize(query))
-        if not query_tokens:
+        query_vec = self._get_tfidf_vector(query)
+        if not any(query_vec):
             return []
 
         results = []
         for doc in self.documents:
             for chunk in doc["chunks"]:
-                chunk_tokens = set(self._tokenize(chunk))
-                if not chunk_tokens:
-                    continue
+                chunk_vec = self._get_tfidf_vector(chunk)
+                score = sum(q * c for q, c in zip(query_vec, chunk_vec))
 
-                # Jaccard + Term Overlap Score
-                overlap = len(query_tokens.intersection(chunk_tokens))
-                score = overlap / (math.sqrt(len(query_tokens)) * math.sqrt(len(chunk_tokens)))
-
-                if score > 0.1:
+                if score > 0.01:
                     results.append({
                         "doc_id": doc["id"],
                         "title": doc["title"],
